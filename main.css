@@ -41,9 +41,11 @@ section h2 {
 	height: 50%;
 }
 
-.navbar li {
-	list-style: none;
-	display: inline;
+#ime-logo {
+	position: fixed;
+	bottom: 20;
+	right: 20;
+	width: 50px;
 }
 
 nav {
