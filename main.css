@@ -66,3 +66,39 @@ nav {
 .navbar li a {
 	text-decoration: none;
 }
+
+
+@media (max-width: 768px) {
+	.container {
+		margin: 0 5%;
+		width: 90%;
+	}
+
+	header h1 {
+		text-align: center;
+	}
+
+
+	nav {
+		position: static;
+		text-align: center;
+	}
+
+	.navbar {
+		margin: 10 auto;
+		padding: 0;
+	}
+
+	.navbar li {
+		display: inline;
+		margin: 0;
+	}
+
+	.navbar li:after {
+		content: ' · ';
+	}
+
+	.navbar li:last-child:after {
+		content: '';
+	}
+}
